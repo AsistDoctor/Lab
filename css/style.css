@@ -29,7 +29,7 @@ body{
 .header{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,0.14889705882352944) 0%, rgba(46,70,252,0.7959558823529411) 100%);
-    width: 85%;
+    width: 90%;
     height: 5em;
     margin-bottom: 1%;
     box-sizing: border-box;
@@ -70,7 +70,7 @@ body{
 .sidebar{
     background: rgb(46,70,252);
     background: linear-gradient(90deg, rgba(46,70,252,1) 0%, rgba(255,255,255,1) 100%);
-    width: 25%;
+    width: 30%;
     height: 150%;
     margin-left: 1%;
     box-sizing: border-box;
