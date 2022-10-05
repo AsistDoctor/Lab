@@ -4,7 +4,7 @@
     
 }
 body{
-    background: #ffffff;
+    background: #f4f4f4;
 }
 .main{
     width: 100%;
@@ -56,6 +56,15 @@ body{
 .hat{
     margin-top: 1%;
     margin-right: 3.1%;
+}
+
+.hat:hover{
+    color: #001eff;
+    transition: 1s;
+}
+
+.hat:not(:hover){
+    transition: 1s;
 }
 
 .sidebar{
@@ -126,9 +135,23 @@ a.hvr:not(:hover) {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,30,255,1) 100%);
     width: 80%;
     height: 4em;
-    text-align: center;
+    align-items: center;
 
     box-sizing: border-box;
     border-radius: 1%;
+    display: flex;
  
+}
+
+.credits{
+    margin-left: 3%;
+}
+
+.credits:hover{
+    color: #001eff;
+    transition: 2s;
+}
+
+.credits:not(:hover){
+    transition: 2s;
 }
