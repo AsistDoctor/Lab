@@ -34,6 +34,9 @@ body{
     margin-bottom: 1%;
     box-sizing: border-box;
     border-radius: 1%;
+    line-height: 0.7;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header video{
@@ -45,6 +48,15 @@ body{
     font-size: 3.4em;
 }
 
+.logo-lab{
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+.hat{
+    margin-top: 1%;
+    margin-right: 3.1%;
+}
 
 .sidebar{
     background: rgb(46,70,252);
