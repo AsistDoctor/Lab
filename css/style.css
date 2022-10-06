@@ -79,17 +79,24 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
-    font-size: 0.9em;
+    font-size: 1.4em;
     border-radius: 1%;
     color: black;
+    overflow: hidden;
 }
 
-.sidebar table {
+.sidebar nav {
     margin-right: 5%;
 }
 
 .nav {
     line-height: 2.5;
+}
+
+.hvr {
+    border: 1px solid #ffffff;
+    border-radius: 0 20% 20% 0;
+    padding: 10px;
 }
 
 a.hvr:active,
