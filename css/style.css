@@ -5,8 +5,8 @@
 }
 
 body {
-    background: rgb(255,183,65);
-    background: linear-gradient(180deg, rgba(255,221,165,1) 0%, rgba(183,255,130,1) 50%, rgba(255,221,165,1) 75%, rgba(183,255,130,1) 100%);
+    background: rgb(255, 183, 65);
+    background: linear-gradient(180deg, rgba(255, 221, 165, 1) 0%, rgba(183, 255, 130, 1) 50%, rgba(255, 221, 165, 1) 75%, rgba(183, 255, 130, 1) 100%);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -170,4 +170,3 @@ a.hvr:not(:hover) {
 .credits:not(:hover) {
     transition: 2s;
 }
-
