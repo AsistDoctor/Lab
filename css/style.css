@@ -64,7 +64,7 @@ body {
 
 .hat:hover {
     color: #f79700;
-    transition: 1s;
+    transition: 0.6s;
 }
 
 .hat:not(:hover) {
@@ -109,7 +109,7 @@ a.hvr {
 
 a.hvr:hover {
     color: #f79700;
-    transition: 1s;
+    transition: 0.6s;
 }
 
 a.hvr:not(:hover) {
@@ -171,7 +171,7 @@ a.hvr:not(:hover) {
 }
 
 .table-portfolio{
-    margin-top: 4%;
+    margin-top: 5em;
 }
 
 .non-margin{
@@ -225,7 +225,7 @@ a.hvr:not(:hover) {
 
 .credits:hover {
     color: #f79700;
-    transition: 1s;
+    transition: 0.6s;
 }
 
 .credits:not(:hover) {
