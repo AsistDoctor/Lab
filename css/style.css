@@ -185,8 +185,8 @@ a.hvr:not(:hover) {
     margin: auto;
 }
 
-.table-cols{
-
+.deteils-keano{
+    transition: 1s;
 }
 
 .col1{
