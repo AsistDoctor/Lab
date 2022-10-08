@@ -138,7 +138,7 @@ a.hvr:not(:hover) {
 
 }
 
-.porfolio-card{
+.porfolio-card {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -147,23 +147,23 @@ a.hvr:not(:hover) {
     padding: 1em;
 }
 
-.image{
+.image {
     width: 14em;
     height: 14em;
     display: block;
 }
 
-.porfolio-text{
+.porfolio-text {
     margin-top: 2em;
     font-size: 0.7em;
     line-height: 1.8;
 }
 
-.my-portfolio{
+.my-portfolio {
     font-weight: bold;
 }
 
-.my-portfolio::after{
+.my-portfolio::after {
     content: '';
     display: block;
     height: 1px;
