@@ -137,7 +137,7 @@ a.hvr:not(:hover) {
 
 }
 
-.porfolio-card {
+.portfolio-card {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -168,6 +168,41 @@ a.hvr:not(:hover) {
     height: 1px;
     width: 13%;
     background: #333333;
+}
+
+.table-portfolio{
+    margin-top: 4%;
+}
+
+.non-margin{
+    margin: 0;
+}
+
+.portfolio-gradient{
+    width: 12em;
+    height: 12em;
+
+    margin: auto;
+}
+
+.table-cols{
+
+}
+
+.col1{
+    background: linear-gradient(180deg, rgba(77,255,151,1) 0%, rgba(255,59,0,1) 100%);
+}
+
+.col2{
+    background: radial-gradient(circle, rgba(77,248,255,1) 0%, rgba(255,0,249,1) 100%);
+}
+
+.col3{
+    background: repeating-linear-gradient(45deg, rgba(77,255,151,1) 0%, rgba(255,59,0,1) 100%);
+}
+
+.col4{
+    background: repeating-radial-gradient(circle, rgba(77,248,255,1) 0%, rgba(255,0,249,1) 100%);
 }
 
 .footer {
