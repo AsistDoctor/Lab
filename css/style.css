@@ -163,8 +163,12 @@ a.hvr:not(:hover) {
     font-weight: bold;
 }
 
-.my-portfolio:after{
-    border-bottom: 1px solid #333333;
+.my-portfolio::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 13%;
+    background: #333333;
 }
 
 .footer {
