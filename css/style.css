@@ -138,11 +138,19 @@ a.hvr:not(:hover) {
 
 }
 
-.image {
-    width: 20%;
+.porfolio-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.image{
+    width: 14em;
+    height: 14em;
     display: block;
-    text-align: center;
-    margin-left: 20%;
+    margin: 1em;
+    margin: auto;
 }
 
 .footer {
