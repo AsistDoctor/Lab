@@ -142,15 +142,29 @@ a.hvr:not(:hover) {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1em;
+    margin-bottom: 5em;
+    border-radius: 3px;
+    padding: 1em;
 }
 
 .image{
     width: 14em;
     height: 14em;
     display: block;
-    margin: 1em;
-    margin: auto;
+}
+
+.porfolio-text{
+    margin-top: 2em;
+    font-size: 0.7em;
+    line-height: 1.8;
+}
+
+.my-portfolio{
+    font-weight: bold;
+}
+
+.my-portfolio:after{
+    border-bottom: 1px solid #333333;
 }
 
 .footer {
