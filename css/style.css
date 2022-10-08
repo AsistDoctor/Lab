@@ -73,7 +73,7 @@ body {
 
 .sidebar {
     background-color: rgba();
-    width: 30%;
+    width: 20%;
     height: 150%;
     margin-left: 1%;
     box-sizing: border-box;
@@ -119,7 +119,7 @@ a.hvr:not(:hover) {
 
 .content {
     background-color: rgba();
-    width: 59%;
+    width: 69%;
     height: 100%;
 
     box-sizing: border-box;
